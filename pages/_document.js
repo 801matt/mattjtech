@@ -1,6 +1,6 @@
-import Document, { Head, Html, Main, NextScript } from 'next/document';
+import Document, { Head, Html, Main, NextScript } from "next/document";
 // Import styled components ServerStyleSheet
-import { ServerStyleSheet } from 'styled-components';
+import { ServerStyleSheet } from "styled-components";
 
 export default class MyDocument extends Document {
   static getInitialProps({ renderPage }) {
@@ -8,8 +8,8 @@ export default class MyDocument extends Document {
     const sheet = new ServerStyleSheet();
 
     // Step 2: Retrieve styles from components in the page
-    const page = renderPage((App) => (props) =>
-      sheet.collectStyles(<App {...props} />),
+    const page = renderPage(
+      (App) => (props) => sheet.collectStyles(<App {...props} />)
     );
 
     // Step 3: Extract the styles as <style> tags
@@ -23,7 +23,11 @@ export default class MyDocument extends Document {
     return (
       <Html>
         <Head>
-            <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet" />
+          <link rel="icon" href="/favicon.png" />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"
+            rel="stylesheet"
+          />
           {this.props.styleTags}
         </Head>
         <body>

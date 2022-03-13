@@ -1,17 +1,20 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-import Link from "next/link"
-import Header from '../components/Header'
-import HomeHero from '../components/HomeHero'
-import HomeLeadText from '../components/HomeLeadText'
-import TopNav from '../components/TopNav'
-import Categories from '../components/Categories'
-import Footer from '../components/Footer'
+import Head from "next/head";
+import Image from "next/image";
+import styles from "../styles/Home.module.css";
+import Link from "next/link";
+import Header from "../components/Header";
+import HomeHero from "../components/HomeHero";
+import HomeLeadText from "../components/HomeLeadText";
+import TopNav from "../components/TopNav";
+import Categories from "../components/Categories";
+import Footer from "../components/Footer";
 
 const App = () => {
   return (
     <>
+      <Head>
+        <title>MattJ</title>
+      </Head>
       <TopNav />
       <Header />
       <HomeHero />
@@ -19,10 +22,10 @@ const App = () => {
       <Categories />
       <Footer />
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
 
 // export default function Home() {
 //   return (

@@ -6,10 +6,14 @@ import PageHero from "../../components/PageHero";
 import Categories from "../../components/Categories";
 import PageContent from "../../components/PageContent";
 import Footer from "../../components/Footer";
+import Head from "next/head";
 
 const AboutPage = () => {
   return (
     <>
+      <Head>
+        <title>Development - MattJ</title>
+      </Head>
       <TopNav />
       <Header />
       <PageHero title="Development" />

@@ -21,12 +21,13 @@ const HomeLeadText = () => {
   return (
     <StyledSection className="home-lead-text">
       <div className="home-lead-text-content">
-        <h2>I always like a title.</h2>
+        <h2>Professional Digital Production Studios</h2>
         <p>
-          Starting the page with a small paragraph not only looks good, but it
-          adds thrilling interest into learning more about what your blog is
-          about. It helps give context to your site visitors so they get a
-          better sense of your site.
+          I love creating and producing digital productions. When I&apos;m
+          chilling, I usually have my Macbook opened up and I&apos;m usually
+          creating digital art, EDM music or something imaginiative and similar.
+          Come join together with me and let&apos;s produce high quality digital
+          content that the world gets inspired by and enjoys at the same time.
         </p>
       </div>
     </StyledSection>

@@ -7,6 +7,7 @@ import Categories from "../../components/Categories";
 import PageContent from "../../components/PageContent";
 import Footer from "../../components/Footer";
 import styled from "styled-components";
+import Head from "next/head";
 
 const StyledSection = styled.section`
   font-size: 16px;
@@ -113,6 +114,9 @@ const StyledSection = styled.section`
 const AboutPage = () => {
   return (
     <>
+      <Head>
+        <title>Contact - MattJ</title>
+      </Head>
       <TopNav />
       <Header />
       <PageHero title="Contact" />
