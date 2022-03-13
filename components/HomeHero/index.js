@@ -16,6 +16,8 @@ background-size: cover; */
     height: 457px;
     display: flex;
     align-items: center;
+    max-width: 1117px;
+    margin: 0 auto;
     /* position: absolute; */
     /* bottom: 0; */
     /* left: 0; */
@@ -23,7 +25,7 @@ background-size: cover; */
 
   .hero-home--titles {
     /* margin-top: -20px; */
-    margin-left: 80px;
+    /* margin-left: 80px; */
   }
 
   .hero-home--titles h1 {
@@ -40,6 +42,12 @@ background-size: cover; */
     width: 187px;
     height: 40px;
     text-transform: uppercase;
+  }
+
+  @media (min-width: 900px) {
+    .hero-home--titles {
+      margin-left: 80px;
+    }
   }
 `;
 

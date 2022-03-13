@@ -11,6 +11,8 @@ const StyledHeader = styled.header`
 
   .header-content {
     height: 70px;
+    max-width: 1117px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -42,6 +44,7 @@ const StyledHeader = styled.header`
 
   .mobile-menu {
     position: absolute;
+    z-index: 999;
     width: 100%;
     top: 70px;
     left: 0;
@@ -59,6 +62,9 @@ const StyledHeader = styled.header`
             font-size: 18px;
             position: relative;
             text-decoration: none;
+            &:hover {
+              background: #f7f7f7;
+            }
           }
         }
       }
@@ -70,6 +76,9 @@ const StyledHeader = styled.header`
   }
 
   @media (max-width: 900px) {
+    .mobile-menu {
+      display: block;
+    }
     .nav {
       display: none;
     }
