@@ -11,18 +11,19 @@ const StyledHeader = styled.header`
 
   .header-content {
     height: 70px;
-    max-width: 1117px;
+    max-width: 1680px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px;
+    padding: 0 10px;
     position: relative;
   }
 
   .header-content .logo {
     font-size: 20px;
     font-weight: 700;
+    padding: 0 10px;
   }
 
   .header-content .nav nav ul {

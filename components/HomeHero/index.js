@@ -2,11 +2,12 @@ import styled from "styled-components";
 
 const StyledSection = styled.section`
   height: 457px;
-  background: #eee;
-  /* background-image: url('home-hero.jpg');
-background-repeat: no-repeat;
-background-position: center center;
-background-size: cover; */
+  /* background: #eee; */
+  background-image: url("page-hero.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
   position: relative;
   border-bottom: solid 1px #dfdfdf;
   text-transform: uppercase;
@@ -16,8 +17,9 @@ background-size: cover; */
     height: 457px;
     display: flex;
     align-items: center;
-    max-width: 1117px;
+    max-width: 1620px;
     margin: 0 auto;
+    color: white;
     /* position: absolute; */
     /* bottom: 0; */
     /* left: 0; */

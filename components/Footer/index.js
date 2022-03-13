@@ -6,12 +6,13 @@ const StyledFooter = styled.footer`
   color: #888;
   background-color: #222222;
   height: 260px;
-  padding: 40px 20px;
+  padding: 40px 0px;
   text-transform: uppercase;
 
   .footer-content {
-    max-width: 1117px;
+    max-width: 1680px;
     margin: 0 auto;
+    padding: 0 20px;
   }
 
   .footer-content--top {

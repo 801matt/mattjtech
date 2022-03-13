@@ -12,8 +12,12 @@ const AboutPage = () => {
     <>
       <TopNav />
       <Header />
-      <PageHero title="Art" />
-      <PageContent></PageContent>
+      <PageHero title="Development" />
+      <PageContent>
+        <section className="home-banner-text">
+          <div className="home-banner-text-content"></div>
+        </section>
+      </PageContent>
       <Categories title="Portfolio" />
       <Footer />
     </>

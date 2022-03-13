@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import Link from "next/link";
 
 const StyledSection = styled.section`
-  max-width: calc(1117px + 40px);
+  max-width: 1680px;
   margin: 0 auto;
   margin-top: 10px;
   padding: 10px;
